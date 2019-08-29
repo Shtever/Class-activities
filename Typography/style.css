@@ -1,0 +1,75 @@
+html {
+    background-image: url(https://images.unsplash.com/photo-1523913507744-1970fd11e9ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80);
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 65px;
+    font-weight: normal;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: yellow;
+
+}
+
+hr {
+
+}
+
+h2 {
+
+}
+
+h3 {
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 10px;
+    color: green
+}
+
+h4 {
+    font-family: 'Passion One', cursive;
+    font-size: 38px;
+    font-weight: bolder;
+    line-height: 0;
+    letter-spacing: 1%;
+    color: blueviolet
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5px;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: normal;
+    color: crimson;
+}
+
+.thought1{
+    font-family: 'Monoton', cursive;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: normal;
+    color: darkgreen;
+}
+
+.thought2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: normal;
+    color: blue;
+}
+
+.thought3{
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: normal;
+    color: yellow;
+}

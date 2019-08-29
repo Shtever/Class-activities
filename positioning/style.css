@@ -1,0 +1,11 @@
+#purple {
+    height: 400px;
+    width: 500px;
+    background-color: purple;
+    color: white;
+}
+
+#container {
+    width: 800px;
+    margin: 0 auto;
+}

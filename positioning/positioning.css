@@ -1,0 +1,38 @@
+.box1 {
+    position: fixed;
+    background-color: lightgrey;
+    height: 68px;
+    width: 170px;
+    top: 70px;
+    left: 20px;
+
+}
+
+p {
+    margin-left: 100px;
+    width:50%;
+}
+
+.box2 {
+    position: relative;
+    background-color: lightgrey;
+    height: 200px;
+    width: 400px;
+    top:0;
+    left: 13%;
+    
+}
+
+.box3 {
+    position: absolute;
+    background-color: grey;
+    height: 100px;
+    width: 200px;
+    bottom:0;
+    right: 0;
+    
+}
+
+.centertext {
+    text-align: center;
+}
