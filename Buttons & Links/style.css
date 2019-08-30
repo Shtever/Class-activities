@@ -1,0 +1,20 @@
+a {
+    font-family: 'Permanent Marker', cursive;
+    color: hotpink;
+    font-size: 50px;
+}
+
+a:hover {
+    color: yellow;
+    background: url(https://images.unsplash.com/photo-1543320777-d4102f7e1aa3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60);
+    background-size:100%
+}
+
+a:active {
+    color: red;
+    background-color: black
+}
+
+#button [
+
+]
