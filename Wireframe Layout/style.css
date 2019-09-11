@@ -1,0 +1,44 @@
+.navbar-brand {
+    color: red !important;
+    font-family: 'Permanent Marker', cursive !important;
+    font-size: 30px;
+}
+
+nav {
+    transition-duration: 1s;
+}
+
+nav:hover {
+    background-color: teal;
+}
+
+.container {
+    margin-top: 5px;
+}
+
+.card {
+    transition-duration: 1s;
+}
+
+.card:hover {
+    filter: invert(100%);
+    transition-duration: 1s;
+}
+
+.img-thumbnail {
+    transition-duration: 1s;
+}
+
+.img-thumbnail:hover {
+    transform: rotate(180deg);
+    transition-duration: .5s;
+}
+
+.entry:hover {
+    color: tomato;
+    transition-duration: .5s;
+}
+
+.entry {
+    transition-duration: .5s;
+}

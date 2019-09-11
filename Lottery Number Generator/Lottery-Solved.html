@@ -1,0 +1,54 @@
+<!-- Lottery Generator HTML -->
+
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Lottery Generator</title>
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Added a link to Font Awesome CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="jumbotron">
+
+        <h1 class="text-center">Generate Lottery Numbers!</h1>
+
+        <div class="text-center">
+            <!-- SET ID FOR BUTTON  -->
+            <button id="button">Button </button>
+
+            <!-- SET ID FOR H1 WHERE OUTPUT WILL APPEAR -->
+            <h1 class="text-center" id="randomNumber"></h1>
+
+        </div>
+    </div>
+    <script type="text/javascript">
+
+        // APPLY BUTTON LISTENER TO ID #BUTTON 
+        $("#button").on("click", function () {
+            // SET VARIABLE 'lottoNumber' TO BLANK
+            var lottoNumber = ""
+            // FOR LOOP: LOOP THRU 9 TIMES
+            for (var i = 0; i < 9; i++) {
+                // OUTPUT RANDOM DIGIT      -->     9 TIMES
+                var random = Math.floor(Math.random() * 9) + 1;
+                // ADD RANDOM DIGIT TO "lottoNumber" (which is blank) ^^
+                lottoNumber = random + lottoNumber;
+            }
+                // "prepend" RESULT OF 'lottoNumber' TO ID #randomNumber ^^
+            $("#randomNumber").prepend("<br>" + lottoNumber);
+        })
+
+    </script>
+</body>
+</html>

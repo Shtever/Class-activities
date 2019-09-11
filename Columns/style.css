@@ -1,0 +1,20 @@
+.outline {
+    border: 2px solid black;
+}
+
+div {
+    font-size: 12px;
+}
+
+.container {
+    margin-left: 0;
+    transition-duration: 2s;
+}
+
+.container:hover {
+    background:lightblue;
+    margin-left: 20%;
+    filter: blur(2px);
+    color: hotpink;
+    transition-duration: 1s;
+}
